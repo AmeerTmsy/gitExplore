@@ -6,3 +6,5 @@ git branch <new_branch_name>       =>  Creating a new branch
 git checkout -b <new_branch_name>  =>  Creating and switching to a new branch
 git checkout -                     =>  Switching to the previously active branch
 git diff                           =>  display the differences between various Git data sources.
+
+there are code still to be added
