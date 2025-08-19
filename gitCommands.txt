@@ -5,3 +5,4 @@ git checkout <commit ID>           =>  Switching to an existing commit
 git branch <new_branch_name>       =>  Creating a new branch
 git checkout -b <new_branch_name>  =>  Creating and switching to a new branch
 git checkout -                     =>  Switching to the previously active branch
+git diff                           =>  display the differences between various Git data sources.
