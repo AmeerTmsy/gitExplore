@@ -10,3 +10,14 @@ git merge <branch_name>            =>  used to combine changes from one or more 
 is there any other git codes?
 
 there are code still to be added
+
+PS C:\Users\PRO\Desktop\gitExplore> git remote add hub https://github.com/AmeerTmsy/gitExplore.git
+PS C:\Users\PRO\Desktop\gitExplore> git remote
+hub
+PS C:\Users\PRO\Desktop\gitExplore> git remote -v
+hub     https://github.com/AmeerTmsy/gitExplore.git (fetch)
+hub     https://github.com/AmeerTmsy/gitExplore.git (push)
+PS C:\Users\PRO\Desktop\gitExplore> git push hub master
+fatal: unable to access 'https://github.com/AmeerTmsy/gitExplore.git/': Could not 
+resolve host: github.com
+PS C:\Users\PRO\Desktop\gitExplore> git push hub master
