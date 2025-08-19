@@ -1,0 +1,6 @@
+git log --all => show all the commits, branches and where the head is located.
+
+git checkout <branch_name>         =>  Switching to an existing branch
+git checkout <commit ID>           =>  Switching to an existing commit
+git checkout -b <new_branch_name>  =>  Creating and switching to a new branch
+git checkout -                     =>  Switching to the previously active branch
