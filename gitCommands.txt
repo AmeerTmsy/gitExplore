@@ -21,3 +21,9 @@ PS C:\Users\PRO\Desktop\gitExplore> git push hub master
 fatal: unable to access 'https://github.com/AmeerTmsy/gitExplore.git/': Could not 
 resolve host: github.com
 PS C:\Users\PRO\Desktop\gitExplore> git push hub master
+
+
+To untrack a file that is already committed and listed in your .gitignore file, you need to remove it from Git's index without deleting it from your local file system.
+=> git rm --cached <path/to/your/file.ext>
+If you want to untrack all files that are now listed in .gitignore, you can use:
+=> git rm -r --cached .
